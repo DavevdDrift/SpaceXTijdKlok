@@ -92,7 +92,7 @@ else {
     tl1.to(txt, 1, {top: 105, ease: Sine.easeInOut});
     
     var tl1 = new TimelineMax({repeat:-1});
-    tl1.to(RaketNacht, 5, {top: -220, ease: Sine.easeInOut, delay: 15});
+    tl1.to(RaketNacht, 5, {top: -250, ease: Sine.easeInOut, delay: 15});
     tl1.to(RaketNacht, 5, {top: 328, ease: Sine.easeInOut, delay: 15},);   
 }
 
