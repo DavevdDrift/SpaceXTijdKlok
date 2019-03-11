@@ -84,6 +84,8 @@ else {
     $(".body1").hide();
     $(".body2").show();
 
+    document.getElementById('txt').style.color = "white";  
+    
     var txt = document.getElementById('txt2');
 
     var tl1 = new TimelineMax();
