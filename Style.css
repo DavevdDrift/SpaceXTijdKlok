@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css?family=Iceland');
+@import url('https://fonts.googleapis.com/css?family=Graduate');
+
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+   "box1";
+} 
+
+
+
+#kopje1{
+  grid-area: box1;
+}
+
+
+
+.grid-container{
+  grid-template-columns: 1fr;
+  grid-template-areas: 
+   "box1";
+} 
+
+
+#txt{
+    position: absolute;
+    font-size: 50px;
+    font-family: 'Graduate';
+    color: black;
+    top: 18%;
+    left: 21%;
+    z-index: 4;
+}
+
+
+
+#Stad{
+    position: absolute;
+    left: -56px;
+    top: -10px;
+    width: 450px;
+    height: 650px;
+}
+#StadDesktop{
+  width: 0px;
+  height: 0px;
+}
+
+#Stand{
+    position: absolute;
+    width: 69px;
+    height: 20px;
+    top: 477px;
+    left: 277px;
+}
+
+#Raket{
+    position: absolute;
+    height: 150px;
+    width: 74px;
+    z-index: 3;
+    top: 328px;
+    left: 275px;
+}
+
+#Logo {
+    position: absolute;
+    width: 142px;
+    height: 92px;
+    z-index: 3;
+    top: -28px;
+    left: -1px;
+}
+
+#Wolk{
+    position: absolute;
+    z-index: 2;
+    width: 900px;
+    right: 363px;
+}
+
+#Zon{
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    z-index: 1;
+    left: 280px;
+}
+
+#txt2{ 
+    position: absolute;
+    font-size: 50px;
+    font-family: 'Graduate';
+    color: white;
+    top: 10%;
+    left: 8%;
+    z-index: 4;
+}
+
+
+#StadNacht{
+    position: absolute;
+    left: -56px;
+    top: -10px;
+    width: 475px;
+    height: 651px;
+}
+
+#StadDesktopNacht{
+    width: 0px;
+    height: 0px;
+}
+
+#RaketNacht{
+    position: absolute;
+    height: 150px;
+    width: 74px;
+    z-index: 3;
+    top: 328px;
+    left: 275px;
+}
+
+
+#LogoNacht{
+    position: absolute;
+    width: 142px;
+    height: 22px;
+    z-index: 3;
+}
+
+#Ster{
+  position: absolute;
+  z-index: 2;
+  width: 335px;
+}
+
+#SterDesktop{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+}
+
+#Maan{
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    z-index: 1;
+    left: 280px;
+}
+
+
+@media only screen and (min-width: 361px) {
+
+#txt{
+    font-size: 105px;
+    top: 20%;
+    left: 20%;
+}
+
+#Stad{
+    left: -56px;
+    top: -57px;
+    width: 826px;
+    height: 1470px;
+}
+
+#Stand{
+    width: 147px;
+    height: 41px;
+    top: 1026px;
+    left: 567px;
+}
+
+#Raket{
+    height: 247px;
+    width: 81px;
+    top: 781px;
+    left: 601px;
+}
+
+#Logo {
+    width: 291px;
+    height: 160px;
+    top: -44px;
+    left: -1px;
+}
+
+#Zon{
+    width: 164px;
+    height: 164px;
+    left: 595px;
+}
+
+#StadNacht{
+    left: -56px;
+    top: -57px;
+    width: 916px;
+    height: 1442px;
+}
+
+#RaketNacht{
+    height: 247px;
+    width: 81px;
+    top: 781px;
+    left: 604px;
+}
+
+#Wolk{
+    width: 1900px;
+    right: 780px;
+}
+
+#LogoNacht{
+    width: 291px;
+    height: 160px;
+    top: -44px;
+    left: -1px;
+}
+
+#Ster{
+  z-index: 2;
+  width: 750px;
+}
+
+#Maan{
+    width: 164px;
+    height: 164px;
+    left: 595px;
+    
+}
+
+}
+
+@media only screen and (min-width: 769px){
+#txt{
+    font-size: 120px;
+    top: 20%;
+    left: 34%;
+}
+
+#Stad{
+    width: 0px;
+    height: 0px;
+}
+
+#StadDesktop{
+    position: absolute;
+    width: 1930px;
+    height: 1088px;
+    left: -5px;
+    top: -5px;
+}
+
+
+#Stand{
+    width: 147px;
+    height: 47px;
+    top: 781px;
+    left: 1450px;
+}
+
+#Raket{
+    height: 247px;
+    width: 81px;
+    top: 537px;
+    left: 1485px;
+}
+
+#Logo {
+    width: 370px;
+    height: 215px;
+    top: -62px;
+    left: -11px;
+}
+
+#Zon{
+    width: 189px;
+    height: 189px;
+    left: 1720px;
+}
+
+#StadNacht{
+    width: 0px;
+    height: 0px;
+}
+
+#StadDesktopNacht{
+    position: absolute;
+    width: 1930px;
+    height: 1088px;
+    left: -5px;
+    top: -5px;
+}
+
+#RaketNacht{
+    height: 247px;
+    width: 81px;
+    top: 537px;
+    left: 1485px;
+}
+
+#Wolk{
+    width: 1800px;
+    right: 1930px;
+}
+
+#LogoNacht{
+    width: 370px;
+    height: 194px;
+    top: -62px;
+    left: -5px;
+}
+
+#Ster{
+    width: 0px;
+    height: 0px;
+}
+
+#SterDesktop{
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    top: -235px;
+}
+
+#Maan{
+    width: 189px;
+    height: 189px;
+    left: 1720px;
+}
+}
+
