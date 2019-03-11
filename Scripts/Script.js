@@ -66,7 +66,7 @@ function checkTime(i) {
 
 
 var d = new Date();
-if(d.getHours() >= 6 && d.getHours() < 18 ){
+if(d.getHours() >= 6 && d.getHours() < 12 ){
     $(".body1").show();
     $(".body2").hide();
     
