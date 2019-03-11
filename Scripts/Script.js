@@ -73,11 +73,11 @@ if(d.getHours() >= 6 && d.getHours() < 18 ){
     var txt = document.getElementById('txt');
     
     var tl1 = new TimelineMax({repeat:-1});
-    //tl1.to(Wolk, 50, {left: 370, ease: Sine.easeInOut});
+    tl1.to(Wolk, 50, {left: 370, ease: Sine.easeInOut});
 
     var tl1 = new TimelineMax({repeat:-1});
-    //tl1.to(Raket, 5, {top: -250, ease: Sine.easeInOut, delay: 15});
-    //tl1.to(Raket, 5, {top: 328, ease: Sine.easeInOut, delay: 15},);             
+    tl1.to(Raket, 5, {top: -250, ease: Sine.easeInOut, delay: 15});
+    tl1.to(Raket, 5, {top: 328, ease: Sine.easeInOut, delay: 15},);             
 }
 
 else {  
@@ -87,11 +87,11 @@ else {
     var txt = document.getElementById('txt2');
 
     var tl1 = new TimelineMax();
-    //tl1.to(txt, 1, {top: 105, ease: Sine.easeInOut});
+    tl1.to(txt, 1, {top: 105, ease: Sine.easeInOut});
     
     var tl1 = new TimelineMax({repeat:-1});
-    //tl1.to(RaketNacht, 5, {top: -220, ease: Sine.easeInOut, delay: 15});
-    //tl1.to(RaketNacht, 5, {top: 328, ease: Sine.easeInOut, delay: 15},);   
+    tl1.to(RaketNacht, 5, {top: -220, ease: Sine.easeInOut, delay: 15});
+    tl1.to(RaketNacht, 5, {top: 328, ease: Sine.easeInOut, delay: 15},);   
 }
 
 
