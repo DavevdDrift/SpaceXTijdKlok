@@ -30,7 +30,7 @@
     font-family: 'Graduate';
     color: black;
     top: 18%;
-    left: 21%;
+    left: 25%;
     z-index: 4;
 }
 
@@ -156,7 +156,7 @@
 #txt{
     font-size: 105px;
     top: 20%;
-    left: 20%;
+    left: 25%;
 }
 
 #Stad{
@@ -237,7 +237,7 @@
 #txt{
     font-size: 120px;
     top: 20%;
-    left: 34%;
+    left: 40%;
 }
 
 #Stad{
